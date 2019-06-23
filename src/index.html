@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Horizon Game Kit A</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+
+    <!-- favicon info -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=<%= htmlWebpackPlugin.options.gitcommit %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png?v=<%= htmlWebpackPlugin.options.gitcommit %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png?v=<%= htmlWebpackPlugin.options.gitcommit %>">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=<%= htmlWebpackPlugin.options.gitcommit %>" color="#40306b">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="manifest" href="/manifest.json?v=<%= htmlWebpackPlugin.options.gitcommit %>" />
+    <style>
+      html,
+      body {
+        font-family: 'Helvetica';
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+        width: 100%;
+        height: 100%;
+        height: calc(100% + env(safe-area-inset-top));
+        touch-action: manipulation;
+        background-color: black;
+      }
+
+      * {
+        box-sizing: border-box;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+        /* make scrollbar transparent */
+      }
+
+      @keyframes loading {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(0.95);
+          opacity: 0.3;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      #loading {
+        text-align: center;
+        opacity: 0.2;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+      }
+
+      #loading svg {
+        animation: 3s loading ease-in-out infinite;
+        margin-top: -50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+    <script
+      type="text/javascript"
+      src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"
+    ></script>
+    <% } %>
+  </body>
+</html>

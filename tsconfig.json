@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+
+    "composite":true,
+
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "removeComments": false,
+    "strictNullChecks": true,
+    "noImplicitUseStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": false,
+    "checkJs": false,
+
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./build",
+
+    "lib": ["dom", "es2018"],
+
+    "plugins": [
+      {
+        "name": "tslint-language-service",
+        "ignoreDefinitionFiles": true,
+        "configFile": "tslint.json",
+        "supressWhileTypeErrorsPresent": true
+      },
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ],
+
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+
+  "exclude": ["node_modules", "dist"]
+}

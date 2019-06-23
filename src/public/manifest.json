@@ -1,0 +1,9 @@
+{
+  "short_name": "Game Kit A",
+  "name": "Horizon Game Kit A",
+  "start_url": "/?source=pwa",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
