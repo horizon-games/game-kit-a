@@ -12,7 +12,7 @@ import { getUrlFlag } from '~/utils/location'
 
 import { addPrettyLights } from '../utils/lights'
 
-import { BaseTestScene } from './BaseTestScene'
+import BaseTestScene from './BaseTestScene'
 
 export default class TestLightingScene extends BaseTestScene {
   constructor() {

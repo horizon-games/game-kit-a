@@ -1,6 +1,5 @@
+import BaseTestScene from './helpers/scenes/BaseTestScene'
 import TestLightingScene from './helpers/scenes/TestLighting'
 import View from './View'
 
-const test = new TestLightingScene()
-
-new View(test)
+export { View, BaseTestScene, TestLightingScene }

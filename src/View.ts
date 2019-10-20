@@ -1,7 +1,7 @@
 import { Clock, Color, Vector3 } from 'three'
 
 import { simpleTweener } from './animation/tweeners'
-import { BaseTestScene } from './helpers/scenes/BaseTestScene'
+import BaseTestScene from './helpers/scenes/BaseTestScene'
 import renderer from './renderer'
 import { timeUniform } from './uniforms'
 import { cameraShaker } from './utils/cameraShaker'

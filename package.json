@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": false,
-  "description": "A life simulation/game",
+  "main": "src/index.ts",
+  "description": "A handful of useful utilities for making Threejs games/demos",
   "repository": "https://github.com/horizon-games/game-kit-a",
   "scripts": {
     "start": "yarn dev",
