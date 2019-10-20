@@ -16,7 +16,7 @@
     "lint:fixtslint": "tslint -c tslint.json --fix $(find src -type f -name *.ts -o -name *.tsx)"
   },
   "dependencies": {
-    "three": "^0.105.2",
+    "three": "^0.109.0",
     "three-bmfont-text": "^2.3.0",
     "threejs-camera-controller-first-person-desktop": "^5.0.1"
   },

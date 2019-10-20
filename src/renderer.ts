@@ -26,9 +26,12 @@ const attributeValues: string[] = [
   'crisp-edges'
 ]
 
-attributeValues.forEach(v => {
-  renderer.context.canvas.style.setProperty('image-rendering', v)
-})
+const canvas3D = renderer.getContext().canvas
+if (canvas3D instanceof HTMLCanvasElement) {
+  for (const v of attributeValues) {
+    canvas3D.style.setProperty('image-rendering', v)
+  }
+}
 renderer.shadowMap.enabled = true
 renderer.shadowMap.type = PCFShadowMap
 renderer.gammaOutput = true
