@@ -53,12 +53,12 @@ export function getUrlColor(param: string, defaultColor: string | Color) {
   return hexColor('#' + str)
 }
 
-const __keysToRemember:string[] = []
+const __keysToRemember: string[] = []
 let __reminderQueued = false
-function __setReminder(name:string) {
-  if(!__keysToRemember.includes(name)) {
+function __setReminder(name: string) {
+  if (!__keysToRemember.includes(name)) {
     __keysToRemember.push(name)
-    if(!__reminderQueued){
+    if (!__reminderQueued) {
       __reminderQueued = true
       setTimeout(() => {
         console.log('Nice Parameters to try: ' + __keysToRemember.join(', '))

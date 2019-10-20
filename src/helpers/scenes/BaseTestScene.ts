@@ -11,6 +11,7 @@ import { getUrlColor } from '~/utils/location'
 
 const FOV = 35
 const MOBILE_FOV = 28
+
 export class BaseTestScene {
   protected scene: Scene
   protected camera: Camera
