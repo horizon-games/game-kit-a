@@ -1,0 +1,1 @@
+{"version":3,"file":"firstTime.js","sourceRoot":"","sources":["../../src/utils/firstTime.ts"],"names":[],"mappings":"AAAA,MAAM,gBAAgB,GAAa,EAAE,CAAA;AAErC,MAAM,UAAU,SAAS,CAAC,GAAW;IACnC,IAAI,gBAAgB,CAAC,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,EAAE;QACxC,gBAAgB,CAAC,IAAI,CAAC,GAAG,CAAC,CAAA;QAC1B,OAAO,IAAI,CAAA;KACZ;IACD,OAAO,KAAK,CAAA;AACd,CAAC"}

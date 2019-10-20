@@ -1,0 +1,34 @@
+import { Transform, Vec2, XY } from '../../Common/Math';
+import { AABB, RayCastInput, RayCastOutput } from '../Collision';
+import { DistanceProxy } from '../Distance';
+import { EdgeShape } from './EdgeShape';
+import { MassData, Shape } from './Shape';
+export declare class ChainShape extends Shape {
+    private static ComputeDistance_s_edgeShape;
+    private static RayCast_s_edgeShape;
+    private static ComputeAABB_s_v1;
+    private static ComputeAABB_s_v2;
+    m_vertices: Vec2[];
+    m_count: number;
+    readonly m_prevVertex: Vec2;
+    readonly m_nextVertex: Vec2;
+    m_hasPrevVertex: boolean;
+    m_hasNextVertex: boolean;
+    constructor();
+    CreateLoop(vertices: XY[], count?: number, start?: number): ChainShape;
+    CreateChain(vertices: XY[], count?: number, start?: number): ChainShape;
+    SetPrevVertex(prevVertex: XY): ChainShape;
+    SetNextVertex(nextVertex: XY): ChainShape;
+    Clone(): ChainShape;
+    Copy(other: ChainShape): ChainShape;
+    GetChildCount(): number;
+    GetChildEdge(edge: EdgeShape, index: number): void;
+    TestPoint(xf: Transform, p: Vec2): boolean;
+    ComputeDistance(xf: Transform, p: Vec2, normal: Vec2, childIndex: number): number;
+    RayCast(output: RayCastOutput, input: RayCastInput, xf: Transform, childIndex: number): boolean;
+    ComputeAABB(aabb: AABB, xf: Transform, childIndex: number): void;
+    ComputeMass(massData: MassData, density: number): void;
+    SetupDistanceProxy(proxy: DistanceProxy, index: number): void;
+    ComputeSubmergedArea(normal: Vec2, offset: number, xf: Transform, c: Vec2): number;
+    Dump(log: (format: string, ...args: any[]) => void): void;
+}

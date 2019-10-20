@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 // const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const nodeExternals = require('webpack-node-externals');
 
 let dist = process.env.DIST
 if (!dist || dist === '') {
@@ -17,6 +18,7 @@ const main = [
 ]
 
 module.exports = dist => ({
+  externals: [nodeExternals()],
   context: process.cwd(), // to automatically find tsconfig.json
   entry: {
     main: main
@@ -96,7 +98,7 @@ module.exports = dist => ({
   resolve: {
     extensions: ['.ts', '.js'],
     alias: {
-      '~': path.join(process.cwd(), 'src')
+      '~': path.join(process.cwd(), './src')
     },
     plugins: [
       // new TsconfigPathsPlugin()
