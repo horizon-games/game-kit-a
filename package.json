@@ -3,15 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": false,
-  "main": "build/index.js",
-  "files": [
-    "build/**/*"
-  ],
+  "main": "src/index.ts",
   "description": "A handful of useful utilities for making Threejs games/demos",
   "repository": "https://github.com/horizon-games/game-kit-a",
   "scripts": {
     "start": "yarn dev",
-    "build": "tsc",
     "dev": "webpack-dev-server --mode development --progress --color --config config/webpack/webpack.config.local.js",
     "lint": "yarn run lint:tslint && yarn run lint:prettier",
     "lint:fix": "yarn run lint:fixtslint && yarn run lint:fixprettier",
@@ -21,11 +17,9 @@
     "lint:fixtslint": "tslint -c tslint.json --fix $(find src -type f -name *.ts -o -name *.tsx)"
   },
   "dependencies": {
-    "@types/offscreencanvas": "^2019.6.0",
     "three": "^0.109.0",
     "three-bmfont-text": "^2.3.0",
-    "threejs-camera-controller-first-person-desktop": "^5.0.1",
-    "webpack-node-externals": "^1.7.2"
+    "threejs-camera-controller-first-person-desktop": "^5.0.1"
   },
   "devDependencies": {
     "dotenv": "^6.1.0",
