@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 // const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const nodeExternals = require('webpack-node-externals');
+const nodeExternals = require('webpack-node-externals')
 
 let dist = process.env.DIST
 if (!dist || dist === '') {
