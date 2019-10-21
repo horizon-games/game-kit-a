@@ -1,5 +1,5 @@
 import { Plane, Ray, Raycaster, Vector2, Vector3 } from 'three';
-import device from '~/device';
+import device from '../device';
 export function clamp(val, min, max) {
     return Math.min(max, Math.max(min, val));
 }

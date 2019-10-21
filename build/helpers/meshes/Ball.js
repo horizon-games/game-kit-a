@@ -1,7 +1,7 @@
 import { Mesh, MeshBasicMaterial, SphereBufferGeometry } from 'three';
-import { Easing } from '~/animation/Easing';
-import { AnimatedBool } from '~/utils/AnimatedBool';
-import { createMaterial } from '~/utils/colors';
+import { Easing } from '../../animation/Easing';
+import { AnimatedBool } from '../../utils/AnimatedBool';
+import { createMaterial } from '../../utils/colors';
 import { NoduleSphere } from './NoduleSphere';
 export class Ball extends NoduleSphere {
     constructor(_radius, useCustomCollider = false, nodules = 30, depth = 4) {

@@ -1,4 +1,4 @@
-import { removeFromArray } from '~/utils/arrayUtils';
+import { removeFromArray } from '../utils/arrayUtils';
 class LiveProperty {
     get listenerCount() {
         return this.listeners.length;

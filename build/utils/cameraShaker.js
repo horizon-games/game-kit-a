@@ -1,6 +1,6 @@
 import { Euler, PerspectiveCamera } from 'three';
-import device from '~/device';
-import { clamp } from '~/utils/math';
+import device from '../device';
+import { clamp } from '../utils/math';
 const SHAKE_CHANGE_DURATION = 0.1;
 const LOW_HERTZ = 200;
 const HIGH_HERTZ = 6000;

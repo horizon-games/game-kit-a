@@ -1,5 +1,5 @@
-import { Easing } from '~/animation/Easing';
-import { simpleTweener } from '~/animation/tweeners';
+import { Easing } from '../animation/Easing';
+import { simpleTweener } from '../animation/tweeners';
 export class AnimatedBool {
     constructor(_onUpdate, initVal = false, _durationMS = 500, easing = Easing.Quartic.InOut, durationMSOut = -1) {
         this._onUpdate = _onUpdate;

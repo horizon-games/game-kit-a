@@ -1034,7 +1034,7 @@
         "signature": "32fa241aa67d57d695c06a1c034f1fdb577ef8fbd7b994425ac6169f8fce4173"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/math.ts": {
-        "version": "5acf29554c526c85129b2d09dfe8d9dfc3066e770fd3c825c531b84e1cfc0e2e",
+        "version": "0f826452bd4cceceda0fe9cc1a135de092104e9163b7fd771a052fd88324f56d",
         "signature": "a95145159971578b73ac39c6a6525cd0a7aaa30f6a7a4a0c456fc688922c5d1d"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/animation/easing.ts": {
@@ -1042,7 +1042,7 @@
         "signature": "efe88020947a47ee12cc790a7d33989c11ca3a9621b020e351de253199626e8b"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/animation/rawtweener.ts": {
-        "version": "a35103603979b3d8abfba10b9b3bc47641c37c9d6e6c6df669fdf19df5105571",
+        "version": "b53883e657e27305abc2beb9d5aed6f3300c12c9f7a1ff92ae28a3862f8941ee",
         "signature": "5031f050fa4535d06ade8bc3cd1a11a58600e02157ea0e1fb771e631cd26eb3e"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/animation/raftweener.ts": {
@@ -1054,7 +1054,7 @@
         "signature": "3cabbd7a11233c680438652be352798e41190b2c8f8c91c873dfc00b01858c60"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/colors.ts": {
-        "version": "e2c59664d1f295bd75ac353f16c78752715d30e86ea9f16bbd691cd23a6a2dad",
+        "version": "469ce934e5fdefbe7e52ab01bd0d531611b18a99b434b394dc861a5c1c966336",
         "signature": "6804dae0d6fb009dba3aa40391f536b845469bbfa74251077f8d41bb5ce99e0c"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/location.ts": {
@@ -1062,7 +1062,7 @@
         "signature": "ae128e92e06fb3a707e8b5afd3e589960e65e0f170f6375abd732ac014314ca7"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/scenes/basetestscene.ts": {
-        "version": "791b415918920b2e977e30eee9555f883e338d3c3faca8eba5fe1b0e30f4254f",
+        "version": "7a9149bff5325dab97b5acd8919ed1d3641b010e83dd2192cc9e6f3a4c7ae9db",
         "signature": "9a842138307791e61c44b369ae15f5f4bd79e58d79e769eb6a804257c69e92be"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/constants.ts": {
@@ -1086,11 +1086,11 @@
         "signature": "f23958283193ffb22be725978dc550ff5c00c34a6963c5e3fef9658e5c6876b0"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/renderer.ts": {
-        "version": "e29aa56d2eaf483debc415365f855efea769bda1e9c56ba330c225636c823b14",
+        "version": "b15dd97c3a29a8abb3a04a213d01fd659d6541d6babc2a2f31712e050268c264",
         "signature": "3d6561747e57a100598eb53d7d99e8ef022fa9579677c33615914a83ee481278"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/camerashaker.ts": {
-        "version": "77c884baa969e64ee2f140bf375354b737bc48bfb1a0a1e4d608e44ff23a74af",
+        "version": "d2046bae4550d0e90a8dfd61e38847ad049da32594fa13fe35ab4a658de2b9ad",
         "signature": "ee8124e24c1d5ba1417514b1586a6f6d2d9662eeb024dd0233711606a8aaa4d2"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/onnextframe.ts": {
@@ -1098,11 +1098,11 @@
         "signature": "1b150155a29d077015beed5e55abbb8773a40184b28b1786dc68d4985fa285ef"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/tasktimer.ts": {
-        "version": "f17aa04b7cc962c29540e3997ad045d89f5ae08f9e8569da68d3cbfb642f46d7",
+        "version": "de98f1a502f84ac2d4fb43b2b8636a81eaff751bd22065a522c9c753e80f284c",
         "signature": "70529e45fa0f4492ec56d59ba948b0aa922c5cb02df443e992e0c6554115352c"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/updatemanager.ts": {
-        "version": "b93b7d55a6e7f22df6a7a09cd73e07c5e8ba8adaed1a735009cc16b5492acc6a",
+        "version": "99bd94f74125f536fc20bb59d72dc2753f418b4bb09c9fb23c7f716e472be76d",
         "signature": "1585ef87774bb3e433636f0de478adce8ea5ee0568fd8d322ac240f4d4f6e6b1"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/view.ts": {
@@ -1114,15 +1114,15 @@
         "signature": "b9b95836ac09a5dedb8b71e32b61096c28b4f3e8ed1ceafb9407271fb93a0880"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/fpscontrols.ts": {
-        "version": "2ed3fbc1e5a6be58496a9b21197c97272730594c63fc880b3f95d305e7303910",
+        "version": "fe422a5bc2af145fbb3fdb8c99f62df38066016abc90da630f688120a01a9c4b",
         "signature": "90b7f1ec51bbbfe4fe9dd052ebc574687c07c8e52f414dee958c20feff3eabe0"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/utils/lights.ts": {
-        "version": "5bfe5f41322620f8eb99d26e41a7691826daed915d5f82b57971745caa5c5323",
+        "version": "1b685cc51791657dce12c15611b66eff2f5d211c9089111c20cc99b5bf246f47",
         "signature": "9fb7bab89c80c3a4e3fa91a0ae57f70c7c44b2498b63d83a09090b0141c6c13d"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/scenes/testlighting.ts": {
-        "version": "b8d38e654c31aaa3c7e91fb2f97cda47a977b79ec93adcf262a5fd17a1989faa",
+        "version": "d97867db7bd666e2fd1a6475b81afb9eca49fd7d9c20a1026bfdb684ab7d176e",
         "signature": "02421b2bd041efc35489dc9ac58f510c4291f8b49c5cd37c9486cffae7941d73"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/index.ts": {
@@ -1134,20 +1134,20 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/animatedbool.ts": {
-        "version": "a8f9d8f9ccf86ef5dbd158a58a13924bdf7740024aa0388c6a26413a9e3a8090",
-        "signature": "2a4244093fcc55d3667d0b68828a8e0a259f0af21b95353c16b9e113fbc314bd"
+        "version": "2823dd5137608bc4fee2d4e79603c9921393cf0c5f7eec5cfa9455c85fe78e33",
+        "signature": "55b8edc030706849efd373f86dd13b9db2bed86209b11dddfac65dee59cb49fc"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/meshes/nodulesphere.ts": {
-        "version": "8bdf0359dd7b40193dc3b9c6a14e2c65aa5281d12441ee95550c72d164b8596c",
+        "version": "971790a5ae8221a85be2262f84784ff2026abfacbe8d063839245034a94128e3",
         "signature": "7e3f22cd13693a140f6f1a530ecdeef20b1736e6710f05a9e34267a25921f733"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/meshes/ball.ts": {
-        "version": "72401c7b7104cc54561d3e1ce744dcde305b520b149c0cadad08ab73320aa369",
-        "signature": "ef7bc36c15e13ee4cdbb5309a8a92e0285dcd04f10e35c8c536eb706a646bbf1"
+        "version": "3b267dea6ed406251ee331c459215c5df9a39d36ee370936d54d092cf3da977b",
+        "signature": "cbe96543dcfb77eb186268ef47f4e96a739fe05e0a701c365620ce599a2b501f"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/helpers/meshes/explosion.ts": {
-        "version": "339793f25ec4ffd37aba6d82bd6298ef0b278f6af053e5f5ba7fb18e800f754b",
-        "signature": "ebfaf4c7d11b38e22861002101fb64c4cd13c9fd7a8447c4be140b212e74d1cc"
+        "version": "d07331d3fc399d3f9f24bce91b867e0200a462e044272381471f94e36f3760e7",
+        "signature": "34e10ac83480c39f12c667557dac4f8507c49290b54285580239ae1b9b4ecb41"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/typings/bmfont.d.ts": {
         "version": "b13c2d855929caa9c178ea2b84c4a0e6e950d4edcdb0679c6e2d248669b0c29b",
@@ -1186,11 +1186,11 @@
         "signature": "339612d2dd6fa5d48038697abce3d0d5f035cb7a08eb9a883182d5d9dfb3ad3f"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/propertylisteners.ts": {
-        "version": "fa890a8d672a2356ae3bc04f8492313180fd0c75bf6a4fc4668876e1eb30e356",
+        "version": "77846c7323b9c8a327ee6a144682616f81ec0775ac6bcc7aafb14732ccb33255",
         "signature": "6934a9dc65a33bdf6de7e356c20e38b13cf8c70095186f0953bd15d1a3c47936"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/utils/sharedwebglrendertarget.ts": {
-        "version": "a566206ed1d6db8132059581048365b07382c99e7f173ce62fb782946c735e06",
+        "version": "1eab536169b7a74aa4b9d7c42603b09084be42b48565d33a8a51fcce883baf75",
         "signature": "fbd814fd9578fcbaa14b9d09de9a35a10884f14c572aa18e08891e0c7576019b"
       },
       "/users/tomasz/documents/repos/game-kit-a/src/vendor/ktxloader.ts": {

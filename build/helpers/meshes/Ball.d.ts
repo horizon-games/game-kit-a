@@ -1,5 +1,5 @@
 import { Color, Mesh } from 'three';
-import { AnimatedBool } from '~/utils/AnimatedBool';
+import { AnimatedBool } from '../../utils/AnimatedBool';
 import { NoduleSphere } from './NoduleSphere';
 export declare class Ball extends NoduleSphere {
     private _radius;

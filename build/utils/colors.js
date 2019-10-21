@@ -1,5 +1,5 @@
 import { Color, MeshBasicMaterial } from 'three';
-import { rand } from '~/utils/math';
+import { rand } from '../utils/math';
 const __whiteColor = new Color(1, 1, 1);
 const __tempColor = new Color();
 export function addColor(dst, src, amt) {

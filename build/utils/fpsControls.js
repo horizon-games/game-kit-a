@@ -1,6 +1,6 @@
 import { PerspectiveCamera } from 'three';
 import FPSController from 'threejs-camera-controller-first-person-desktop';
-import renderer from '~/renderer';
+import renderer from '../renderer';
 import { cameraShaker } from './cameraShaker';
 import { getUrlFloat } from './location';
 import { clamp, lerp } from './math';

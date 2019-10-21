@@ -1,5 +1,5 @@
 import { Box2, GammaEncoding, LinearFilter, Mesh, MeshBasicMaterial, PlaneBufferGeometry, RepeatWrapping, RGBAFormat, UnsignedByteType, Vector2, WebGLRenderTarget } from 'three';
-import { maxTextureSize } from '~/renderer';
+import { maxTextureSize } from '../renderer';
 import { removeFromArray, replaceManyInArray } from './arrayUtils';
 export const prototypePlaneGeometryUvAttribute = new PlaneBufferGeometry(1, 1, 1, 1).attributes.uv;
 const defaultRenderTargetOptions = {

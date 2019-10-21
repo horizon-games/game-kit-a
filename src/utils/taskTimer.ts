@@ -1,5 +1,5 @@
-import { simpleTweener } from '~/animation/tweeners'
-import { removeFromArray } from '~/utils/arrayUtils'
+import { simpleTweener } from '../animation/tweeners'
+import { removeFromArray } from '../utils/arrayUtils'
 
 export class TimedTask {
   private _task: (() => void) | undefined

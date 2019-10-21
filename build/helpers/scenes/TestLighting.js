@@ -1,6 +1,6 @@
 import { BoxBufferGeometry, Mesh, MeshStandardMaterial, PlaneBufferGeometry, SphereBufferGeometry } from 'three';
-import { FPSControls } from '~/utils/fpsControls';
-import { getUrlFlag } from '~/utils/location';
+import { FPSControls } from '../../utils/fpsControls';
+import { getUrlFlag } from '../../utils/location';
 import { addPrettyLights } from '../utils/lights';
 import BaseTestScene from './BaseTestScene';
 export default class TestLightingScene extends BaseTestScene {

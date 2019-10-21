@@ -1,4 +1,4 @@
-import { NumberEaser } from '~/animation/RawTweener';
+import { NumberEaser } from '../animation/RawTweener';
 declare type ProgressCallback = (val: number) => void;
 export declare class AnimatedBool {
     private _onUpdate;

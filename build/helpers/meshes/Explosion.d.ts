@@ -1,4 +1,4 @@
-import { AnimatedBool } from '~/utils/AnimatedBool';
+import { AnimatedBool } from '../../utils/AnimatedBool';
 import { NoduleSphere } from './NoduleSphere';
 export declare class Explosion extends NoduleSphere {
     private _radius;

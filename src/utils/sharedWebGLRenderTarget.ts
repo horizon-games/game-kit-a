@@ -19,7 +19,7 @@ import {
   WebGLRenderTarget,
   WebGLRenderTargetOptions
 } from 'three'
-import { maxTextureSize } from '~/renderer'
+import { maxTextureSize } from '../renderer'
 
 import { removeFromArray, replaceManyInArray } from './arrayUtils'
 

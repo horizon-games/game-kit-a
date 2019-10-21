@@ -1,5 +1,5 @@
 import { PCFShadowMap, WebGLRenderer } from 'three';
-import { RESET_USER_SETTINGS_TO_DEFAULTS } from '~/constants';
+import { RESET_USER_SETTINGS_TO_DEFAULTS } from './constants';
 import device from './device';
 import { devicePixelRatioUniform, pixelSizeInClipSpaceUniform } from './uniforms';
 import { NiceParameter } from './utils/NiceParameter';

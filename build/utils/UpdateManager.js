@@ -1,4 +1,4 @@
-import { removeFromArray } from '~/utils/arrayUtils';
+import { removeFromArray } from '../utils/arrayUtils';
 const updaters = [];
 const update = (dt) => {
     for (const updater of updaters) {

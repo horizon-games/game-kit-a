@@ -1,5 +1,5 @@
-import { simpleTweener } from '~/animation/tweeners';
-import { removeFromArray } from '~/utils/arrayUtils';
+import { simpleTweener } from '../animation/tweeners';
+import { removeFromArray } from '../utils/arrayUtils';
 export class TimedTask {
     constructor(expireTime, task) {
         this.expireTime = expireTime;

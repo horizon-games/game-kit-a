@@ -1,5 +1,5 @@
 import { Mesh, SphereBufferGeometry } from 'three';
-import { rand } from '~/utils/math';
+import { rand } from '../../utils/math';
 let __geo;
 function getGeo() {
     if (!__geo) {

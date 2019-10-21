@@ -7,8 +7,8 @@ import {
   SphereBufferGeometry,
   WebGLRenderer
 } from 'three'
-import { FPSControls } from '~/utils/fpsControls'
-import { getUrlFlag } from '~/utils/location'
+import { FPSControls } from '../../utils/fpsControls'
+import { getUrlFlag } from '../../utils/location'
 
 import { addPrettyLights } from '../utils/lights'
 
