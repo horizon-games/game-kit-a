@@ -8,7 +8,7 @@ import {
   Vector2,
   Vector3
 } from 'three'
-import device from '~/device'
+import device from '../device'
 
 export function clamp(val: number, min: number, max: number) {
   return Math.min(max, Math.max(min, val))

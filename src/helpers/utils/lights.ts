@@ -8,7 +8,7 @@ import {
   Scene,
   Vector3
 } from 'three'
-import { getUrlFlag } from '~/utils/location'
+import { getUrlFlag } from '../../utils/location'
 
 const __defaultGroundColor = new Color(0x4f3f2f)
 const __defaultSkyColor = new Color(0xafbfef)

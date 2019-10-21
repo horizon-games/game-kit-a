@@ -1,0 +1,37 @@
+import { Transform, Vec2, XY } from '../../Common/Math';
+import { AABB, RayCastInput, RayCastOutput } from '../Collision';
+import { DistanceProxy } from '../Distance';
+import { MassData, Shape } from './Shape';
+export declare class EdgeShape extends Shape {
+    private static ComputeDistance_s_v1;
+    private static ComputeDistance_s_v2;
+    private static ComputeDistance_s_d;
+    private static ComputeDistance_s_s;
+    private static RayCast_s_p1;
+    private static RayCast_s_p2;
+    private static RayCast_s_d;
+    private static RayCast_s_e;
+    private static RayCast_s_q;
+    private static RayCast_s_r;
+    private static ComputeAABB_s_v1;
+    private static ComputeAABB_s_v2;
+    readonly m_vertex1: Vec2;
+    readonly m_vertex2: Vec2;
+    readonly m_vertex0: Vec2;
+    readonly m_vertex3: Vec2;
+    m_hasVertex0: boolean;
+    m_hasVertex3: boolean;
+    constructor();
+    Set(v1: XY, v2: XY): EdgeShape;
+    Clone(): EdgeShape;
+    Copy(other: EdgeShape): EdgeShape;
+    GetChildCount(): number;
+    TestPoint(xf: Transform, p: Vec2): boolean;
+    ComputeDistance(xf: Transform, p: Vec2, normal: Vec2, childIndex: number): number;
+    RayCast(output: RayCastOutput, input: RayCastInput, xf: Transform, childIndex: number): boolean;
+    ComputeAABB(aabb: AABB, xf: Transform, childIndex: number): void;
+    ComputeMass(massData: MassData, density: number): void;
+    SetupDistanceProxy(proxy: DistanceProxy, index: number): void;
+    ComputeSubmergedArea(normal: Vec2, offset: number, xf: Transform, c: Vec2): number;
+    Dump(log: (format: string, ...args: any[]) => void): void;
+}
