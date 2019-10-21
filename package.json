@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": false,
-  "main": "src/index.ts",
+  "main": "build/index.js",
   "description": "A handful of useful utilities for making Threejs games/demos",
   "repository": "https://github.com/horizon-games/game-kit-a",
   "scripts": {
