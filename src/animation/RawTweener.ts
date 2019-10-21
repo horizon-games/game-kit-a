@@ -1,5 +1,5 @@
-import { copyDefaults } from '~/utils'
-import { lerp } from '~/utils/math'
+import { copyDefaults } from '../utils'
+import { lerp } from '../utils/math'
 
 import { Easing } from './Easing'
 

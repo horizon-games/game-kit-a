@@ -1,4 +1,4 @@
-import { removeFromArray } from '~/utils/arrayUtils'
+import { removeFromArray } from '../utils/arrayUtils'
 
 type UpdateCallback = (dt: number) => void
 

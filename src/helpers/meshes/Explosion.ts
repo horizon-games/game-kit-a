@@ -1,7 +1,7 @@
 import { AdditiveBlending, MeshBasicMaterial } from 'three'
-import { Easing } from '~/animation/Easing'
-import { AnimatedBool } from '~/utils/AnimatedBool'
-import { createMaterial } from '~/utils/colors'
+import { Easing } from '../../animation/Easing'
+import { AnimatedBool } from '../../utils/AnimatedBool'
+import { createMaterial } from '../../utils/colors'
 
 import { NoduleSphere } from './NoduleSphere'
 

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": false,
-  "main": "src/index.ts",
+  "main": "build/index.js",
   "description": "A handful of useful utilities for making Threejs games/demos",
   "repository": "https://github.com/horizon-games/game-kit-a",
   "scripts": {
@@ -17,6 +17,7 @@
     "lint:fixtslint": "tslint -c tslint.json --fix $(find src -type f -name *.ts -o -name *.tsx)"
   },
   "dependencies": {
+    "@types/offscreencanvas": "^2019.6.0",
     "three": "^0.109.0",
     "three-bmfont-text": "^2.3.0",
     "threejs-camera-controller-first-person-desktop": "^5.0.1"

@@ -1,6 +1,6 @@
-import { Easing } from '~/animation/Easing'
-import { NumberEaser } from '~/animation/RawTweener'
-import { simpleTweener } from '~/animation/tweeners'
+import { Easing } from '../animation/Easing'
+import { NumberEaser } from '../animation/RawTweener'
+import { simpleTweener } from '../animation/tweeners'
 
 type ProgressCallback = (val: number) => void
 

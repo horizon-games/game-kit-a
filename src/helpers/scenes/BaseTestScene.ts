@@ -6,8 +6,8 @@ import {
   Scene,
   WebGLRenderer
 } from 'three'
-import device from '~/device'
-import { getUrlColor } from '~/utils/location'
+import device from '../../device'
+import { getUrlColor } from '../../utils/location'
 
 const FOV = 35
 const MOBILE_FOV = 28
