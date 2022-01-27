@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@types/offscreencanvas": "^2019.6.0",
-    "three": "^0.109.0",
+    "three": "^0.137.0",
     "three-bmfont-text": "^2.3.0",
     "threejs-camera-controller-first-person-desktop": "^5.0.1"
   },
